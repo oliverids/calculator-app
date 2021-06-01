@@ -1,0 +1,95 @@
+:root {
+    /* fundo e texto */
+    --fundo: #3a4764; 
+    --texto: #fff;
+
+    /* range */
+    --range-fundo: #252D43;
+    --range-slider: #D83F29;
+
+    /* resultado */
+    --result-fundo: #192034;
+    --result-texto: #fff;
+
+    /* btns fundo */
+    --btn-fundo: #252e46;
+
+    /* numeros */
+    --teclas: #eae3dc;
+    --teclas-numero: #454659;
+    --teclas-sombra: #a19591;
+
+    /* del e reset */
+    --texto-fundo: #65739a;
+    --texto-sombra: #414e71;
+    --texto-cor: #fff;
+
+    /* btn igual */
+    --btn-igual: #d13e2e;
+    --btn-sombra: #922317;
+    --btn-texto: #fff;
+}
+
+body.claro {
+     /* fundo e texto */
+     --fundo: #E6E6E6; 
+     --texto: #34362B;
+ 
+     /* range */
+     --range-fundo: #D5CCCC;
+     --range-slider: #C35806;
+ 
+     /* resultado */
+     --result-fundo: #EEEEEE;
+     --result-texto: #34342A;
+ 
+     /* btns fundo */
+     --btn-fundo: #D3CDCD;
+ 
+     /* numeros */
+     --teclas: #E5E4E0;
+     --teclas-numero: #36362C;
+     --teclas-sombra: #A69D93;
+ 
+     /* del e reset */
+     --texto-fundo: #388187;
+     --texto-sombra: #296168;
+     --texto-cor: #F7FFFF;
+ 
+     /* btn igual */
+     --btn-igual: #C85401;
+     --btn-sombra: #873A03;
+     --btn-texto: #fff;
+}
+
+body.roxo {
+    /* fundo e texto */
+    --fundo: #17062A; 
+    --texto: #FFE738;
+
+    /* range */
+    --range-fundo: #1E0836;
+    --range-slider: #00DFCE;
+
+    /* resultado */
+    --result-fundo: #1E0836;
+    --result-texto: #FFE738;
+
+    /* btns fundo */
+    --btn-fundo: #1E0837;
+
+    /* numeros */
+    --teclas: #331B4D;
+    --teclas-numero: #FFE734;
+    --teclas-sombra: #851F9C;
+
+    /* del e reset */
+    --texto-fundo: #56077C;
+    --texto-sombra: #B715EA;
+    --texto-cor: #FAF7F3;
+
+    /* btn igual */
+    --btn-igual: #00DECF;
+    --btn-sombra: #6DF9F0;
+    --btn-texto: #044342;
+}

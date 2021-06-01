@@ -1,0 +1,148 @@
+@import url('temas.css');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--fundo);
+  color: var(--texto);
+  font-family: "Spartan";
+  font-weight: 700;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+.secao {
+  max-width: 350px;
+  margin: 60px auto 0 auto;
+  padding: 20px;
+  background: none;
+}
+
+.secao .intro {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.secao .intro h1 {
+  font-size: 24px;
+  align-self: center;
+}
+
+.secao .intro .theme {
+  display: flex;
+  align-items: center;
+}
+
+.secao .intro .theme h2 {
+  font-size: 10px;
+}
+
+.secao .intro .theme .muda-tema {
+  margin-left: 12px;
+}
+
+.secao .intro .theme .muda-tema .indicador {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+.secao .intro .theme .muda-tema input[type=range] {
+  appearance: none;
+  width: 80px;
+  margin-top: 5px;
+  padding: 4px 5px;
+  border-radius: 5px;
+  background: var(--range-fundo);
+}
+
+.secao .intro .theme .muda-tema input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--range-slider);
+}
+
+.secao .calc input {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  width: 60px;
+  padding: 6px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  background: var(--teclas);
+  color: var(--teclas-numero);
+  box-shadow: 0 3px 0 var(--teclas-sombra);
+}
+
+.secao .calc input:active {
+  background: var(--teclas-sombra);
+}
+
+.secao .calc .texto {
+  background: var(--texto-fundo);
+  box-shadow: 0 3px 0 var(--texto-sombra);
+  font-size: 16px;
+  color: var(--texto-cor);
+}
+
+.secao .calc .texto:active {
+  background: var(--texto-sombra);
+}
+
+.secao .calc #result {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-align: right;
+  background: var(--result-fundo);
+  color: var(--result-texto);
+  box-shadow: none;
+}
+
+.secao .calc .btns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: var(--btn-fundo);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.secao .calc .final {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.secao .calc .final input[value="RESET"] {
+  width: calc(50% - 5px);
+}
+
+.secao .calc .final input[value="="] {
+  width: calc(50% - 5px);
+  background: var(--btn-igual);
+  box-shadow: 0 3px 0 var(--btn-sombra);
+  color: var(--btn-texto);
+}
+
+.secao .calc .final input[value="="]:active {
+  background: var(--btn-sombra);
+}
